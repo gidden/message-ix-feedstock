@@ -10,8 +10,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
   noarch: python
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - messageix-config = message_ix.cli:config_cli
@@ -21,7 +21,7 @@ requirements:
     - python
     - pip
   run:
-    - ixmp ==0.1.0
+    - ixmp ==0.1.1
 
 test:
   imports:
