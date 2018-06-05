@@ -1,5 +1,5 @@
 {% set version = "1.0.0" %}
-{% set sha256 = "4f94c5e590fae23fb98ffe50378ba29233ad162ddb4ed8a0677d4967d60df3e9" %}
+{% set sha256 = "0f9135eee4cda144c925c59db0b775bb60a679b9e656ad695094c9e9b5635736" %}
 
 package:
   name: message-ix
